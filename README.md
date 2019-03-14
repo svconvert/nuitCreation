@@ -9,4 +9,4 @@ Nous avons besoin de développeurs, d'organisateurs et de reporters.
 Les outils utilisés seront :
 - Dans un premier temps le bloc-notes, pour démarrer avec le code HTML
 - Ensuite [Visual Studio Code](https://code.visualstudio.com) qui nous permettra d'organiser notre site et de bénéficier de la coloration syntaxique
-- Enfin, la plateforme GitHub hébergera à la fois notre travail en mode collaboratif et notre site, afin de le rendre visible sur le Web.
+- Enfin, la plateforme GitHub hébergera à la fois notre travail en mode collaboratif et notre site (sous GH Pages), afin de le rendre visible sur le Web.

@@ -1,0 +1,134 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+a {
+    color: inherit;
+}
+
+main {
+    margin-bottom: 110px;
+}
+
+.div-top {
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index: 2;
+    padding: 16px 16px;
+    background-color: white;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.div-top-right {
+    text-align: right;
+    float: right;
+}
+
+.div-top-left {
+    float: left;
+}
+
+.div-top-title {
+    padding: 8px 16px;
+    text-decoration: none
+}
+
+.div-top-button {
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 4px;
+
+}
+
+.div-top-button:hover {
+    background-color: cornflowerblue;
+}
+
+
+.div-bottom {
+    position:fixed;
+    width:100%;
+    bottom:0;
+    background-color: black;
+    color: white;
+    text-align:center;
+}
+
+h1 {
+    font-size:36px;
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight:400;margin:10px 0
+}
+h2 {
+    border-bottom: 1px solid #CCC;
+    padding: 16px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+.main-title {
+    margin: 4.5rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.creation-content {
+    width: 31%;
+    float: left;
+    margin: 1%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.creation-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    background-color: blueviolet;
+    padding: 10px 20px;
+}
+.creation-text {
+    height: 200px;
+    overflow: hidden;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1600px;
+}
+.imgClass {
+    width: 100%;
+    height: auto;
+}
+section {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media all and (max-width: 991px) { 
+    .creation-content {
+        width: 48%;
+    }
+ }
+@media all and (max-width: 768px) { 
+    .creation-content {
+        width: 100%;
+    }
+    .div-top-button {
+        display: block;
+    }
+    .main-title {
+        margin-top: 12rem;
+    }
+ }
+@media all and (max-width: 480px) { 
+    .creation-content {
+        width: 100%;
+    }
+ }
